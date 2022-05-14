@@ -27,7 +27,7 @@ textarea:focus, input:focus{
 
 .cadastro{
     background-color: #77b978;
-    width: 500px;
+    width: 750px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -40,29 +40,30 @@ textarea:focus, input:focus{
 }
 
 .formulario{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .titulo{
     font-family: 'Caveat', cursive;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: bold;
     color: #ffffff;
 }
 
 p{
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 23px;
+    font-weight: 600;
 }
 
 .pergunta{
@@ -75,10 +76,10 @@ p{
 input{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 350px;
     font-family: 'Poppins', sans-serif;
     color: #000000;
-    font-weight: 400;
+    font-weight: 200;
     text-align: left;
     border: 2px solid #a5a4a4;
     border-radius: 5px;
@@ -92,7 +93,7 @@ input:focus{
 .regiao{
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 200;
     background-color: #005234;
 }
@@ -100,6 +101,7 @@ input:focus{
 .retorno{
     text-align: center;
     color: #ffffff;
+    width: 700px;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     font-weight: 600;
@@ -107,4 +109,5 @@ input:focus{
     background-color: #A6674C;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 9px;
 }
