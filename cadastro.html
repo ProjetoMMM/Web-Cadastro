@@ -21,7 +21,7 @@
     <fieldset class="formulario">
         <div>
             <label class="pergunta">nome completo</label>
-            <input type="text" name="nome" placeholder="digite aqui seu nome completo" id="nome" required>      
+            <input type="text" name="nome" placeholder="digite aqui seu nome completo" id="nome" autocomplete="off" required>      
         </div>
         <div>
             <label class="pergunta">email</label>
@@ -33,7 +33,7 @@
         </div>
         <div>
             <label class="pergunta">celular - WhatsApp</label>
-            <input type="text" name="celular" id="celular" placeholder="ex: (xx) xxxxx-xxxx" required>
+            <input type="tel" name="celular" id="celular" placeholder="ex: xx xxxxx-xxxx" autocomplete="off" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
         </div>
         <input type="submit" class="retorno" value="Cadastro Criado"> 
     </fieldset>   
