@@ -21,39 +21,19 @@
     <fieldset class="formulario">
         <div>
             <label class="pergunta">nome completo</label>
-            <input type="text" name="nome" placeholder="digite aqui seu nome completo" id="nome">      
+            <input type="text" name="nome" placeholder="digite aqui seu nome completo" id="nome" required>      
         </div>
         <div>
             <label class="pergunta">email</label>
-            <input type="email" name="email" id="email" placeholder="ex: agrônomo@mmm.br" autocomplete="off">
+            <input type="email" name="email" id="email" placeholder="ex: agrônomo@mmm.br" autocomplete="off" required>
         </div>
         <div>
             <label class="pergunta">crie sua senha</label>
-            <input type="password" name="senha" placeholder="senha para uso exclusivo do agrônomo " id="senha">
+            <input type="password" name="senha" placeholder="senha para uso exclusivo do agrônomo " id="senha" required>
         </div>
         <div>
             <label class="pergunta">celular - WhatsApp</label>
-            <input type="text" name="celular" id="celular" placeholder="ex: (xx) xxxxx-xxxx">
-        </div>
-        <div>
-            <label class="pergunta">Região do Ceará</label>
-            <select>
-                <option selected disabled value="">Selecione...</option>
-                <option class="regiao" value="cariri">Cariri</option>
-                <option class="regiao" value="centros">Centro Sul</option>
-                <option class="regiao" value="fortaleza">Grande Fortaleza</option>
-                <option class="regiao" value="leste">Litoral Leste</option>
-                <option class="regiao" value="norte">Litoral Norte</option>
-                <option class="regiao" value="curu">Litoral Oeste / Vale do Curu</option>
-                <option class="regiao" value="baturite">Maciço de Baturité</option>
-                <option class="regiao" value="ibiapaba">Serra da Ibiapaba</option>
-                <option class="regiao" value="central">Sertão Central</option>
-                <option class="regiao" value="caninde">Sertão do Canindé</option>
-                <option class="regiao" value="sobral">Sertão do Sobral</option>
-                <option class="regiao" value="crateus">Sertão dos Crateús</option>
-                <option class="regiao" value="inhamuns">Sertão dos Inhamuns</option>
-                <option class="regiao" value="jaguaribe">Vale do Jaguaribe</option>
-            </select>
+            <input type="text" name="celular" id="celular" placeholder="ex: (xx) xxxxx-xxxx" required>
         </div>
         <input type="submit" class="retorno" value="Cadastro Criado"> 
     </fieldset>   

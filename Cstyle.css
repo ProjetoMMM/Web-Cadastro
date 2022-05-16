@@ -90,14 +90,6 @@ input:focus{
     border: 2px solid #005234;
 }
 
-.regiao{
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 200;
-    background-color: #005234;
-}
-
 .retorno{
     text-align: center;
     color: #ffffff;
